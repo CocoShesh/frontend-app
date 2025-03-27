@@ -34,7 +34,7 @@ const ChatApp = ({ socket, room, username }) => {
   }, [socket, username]);
   return (
     <>
-      <div className="bg-gray-50 shadow-2xl w-[700px] h-[800px] rounded-lg   flex flex-col items-center">
+      <div className="bg-gray-50 shadow-2xl w-[700px] h-[800px] rounded-lg mx-5  flex flex-col items-center">
         <div className="bg-blue-500 w-full h-22 flex justify-between p-5 text-white  ">
           <div>
             <p> Live Chat</p>
