@@ -2,7 +2,7 @@ import { useState } from "react";
 import io from "socket.io-client";
 import ChatApp from "./components/ChatApp";
 
-const socket = io.connect("http://localhost:3001");
+const socket = io.connect("https://chatted-created.netlify.app/");
 function App() {
   const [username, setUsername] = useState("");
   const [roomId, setRoomId] = useState("");
